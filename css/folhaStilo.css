@@ -1,0 +1,113 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  background-color: #17a2b8;
+  height: 100vh;
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #17a2b8;
+  height: 100vh;
+}
+
+#divLogin{
+  margin-top: 7%;
+  max-width: 60%;
+  margin-left: 20%;
+  height: 70%;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+
+#divPagina2{
+  margin-top: 5%;
+  max-width: 60%;
+  margin-left: 22%;
+  height: 78%;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+
+#divPagina3{
+  margin-top: 3%;
+  max-width: 75%;
+  margin-left: 13%;
+  height: 78%;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+
+#divPagina4{
+  margin-top: 5%;
+  max-width: 60%;
+  margin-left: 22%;
+  height: 68%;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+
+#divPagina5{
+  margin-top: 1%;
+  max-width: 85%;
+  margin-left: 8%;
+  height: 60%;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+
+.tamanho{
+   width: 260px; 
+   text-align: center;
+}
+
+  .abas {
+    position: relative;
+    }
+    .aba {
+    display: inline;
+    }
+    .aba > a {
+    float: left;
+    padding: 0.5em 1em;
+    background: linear-gradient(#FFF, #EEE);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #CCC #CCC #FFF;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    }
+    .aba:not(:target) a {
+    border-bottom: 0 none;
+    }
+    .aba:target a, a:hover {
+    background: white;
+    }
+    .conteudo {
+    position: absolute;
+    left: 0;
+    top: calc(2em + 4px); /* altura do link + bordas */
+    z-index: -2;
+    border: 1px solid #CCC;
+    background-color: white;
+    }
+    .aba:target .conteudo {
+    z-index: -1;
+    }
+
+
+
